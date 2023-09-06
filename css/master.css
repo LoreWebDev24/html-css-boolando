@@ -4,17 +4,25 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-family: 'DM Sans', sans-serif;
+}
+
 header {
     height: 80px;
     background-color: #FF6900 ;
-	/* border-bottom: 1px solid black; */
-	/* position: fixed; */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	
 }
+
+/* .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+} */
 
 main {
 	padding-top: 50px;
@@ -32,13 +40,13 @@ a {
 	text-decoration: none;
 	color: white;
 	padding-left: 10px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 span {
 	color: white;
 	padding-left: 10px;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 ul,ol,menu {
@@ -179,7 +187,7 @@ p {
 	background-color: white;
 }
 
-p> span{
+p > span {
 	color: black;
 	line-height: 1em ;
 	font-size: 1em;
