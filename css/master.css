@@ -35,7 +35,6 @@ a {
 	font-size: 20px;
 }
 
-
 span {
 	color: white;
 	padding-left: 10px;
@@ -62,7 +61,6 @@ img {
 .img-b {
 	display: none;
 }
-
 
 p {
 	font-size: 18px;
@@ -146,7 +144,6 @@ p {
 	top: 77%;
 }
 
-
 .sustainable {
 	background-color: #008000 ;
 	color: white;
@@ -155,10 +152,19 @@ p {
 	padding-right: 10px;
 	position: absolute;
 	top: 77%;
-	right: 54%;
+	right: 44%;
 }
 
-
+.just-sustainable {
+	background-color: #008000 ;
+	color: white;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 77%;
+	right: 67%;
+}
 
 .heart-size {
 	font-size: 32px;
