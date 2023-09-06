@@ -103,6 +103,10 @@ p {
 	display:block ;
 }
 
+.card:hover .heart-size {
+	color: red;
+}
+
 .logo-col {
 	display: flex;
 	justify-content: center;
