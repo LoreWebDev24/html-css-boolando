@@ -23,6 +23,8 @@ main {
 footer{
     height: 100px;
     background-color: #1A1A1A ;
+	color: white;
+	padding-top: 35px;
 }
 
 a {
@@ -31,6 +33,7 @@ a {
 	padding-left: 10px;
 	font-size: 20px;
 }
+
 
 span {
 	color: white;
@@ -77,10 +80,22 @@ p {
     align-items: center;
 }
 
+.card {
+	position: relative;
+}
+
+.card:hover img {
+
+}
+
 .logo-col {
 	display: flex;
 	justify-content: center;
 	flex-basis: calc((100% / 12) * 8);
+}
+
+.col-6 {
+	flex-basis: calc((100% / 12) * 6);
 }
 
 .col-4 {
@@ -112,12 +127,90 @@ p {
 	font-weight: bolder;
 }
 
+.price-off{
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 77%;
+
+}
+
+.just-price-off {
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 950%;
+	right: 815%;
+
+}
+
+.sustainable {
+	background-color: #008000 ;
+	color: white;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 77%;
+	right: 54%;
+}
+
+.sustainable-top {
+	background-color: #008000 ;
+	color: white;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 950% ;
+	right: 525%;
+
+}
+
+.just-sustainable {
+	background-color: #008000 ;
+	color: white;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 77%;
+}
+
+.heart-size {
+	font-size: 32px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.heart {
+	position: absolute;
+	top: 2%;
+	left: 90%;
+	background-color: white;
+}
+
 p> span{
 	color: black;
 	line-height: 1em ;
 	font-size: 1em;
 	font-weight: bolder;
 	text-decoration-line: line-through;
+}
+
+.footer-link {
+	padding-right: 10px;
+}
+
+
+.text-allign-right{
+	text-align: right;
 }
 
 
