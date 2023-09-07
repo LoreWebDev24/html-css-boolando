@@ -18,14 +18,15 @@ header {
 	
 }
 
-/* .sticky {
+.sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
-} */
+	z-index: 999;
+}
 
 main {
-	padding-top: 50px;
+	padding-top: 180px;
 	padding-bottom: 50px;
 }
 
@@ -145,6 +146,8 @@ p {
 	font-size: 1em;
 	font-weight: bolder;
 }
+
+/* ERA MEGLIO POSIZIONARE I BADGE DELLO SCONTO E DELLA SUSTENABILITY ABSOLUTE RISPETO ALL' IMG E NON ALLA CARD.... */
 
 .price-off{
 	background-color: red;
