@@ -10,9 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Kanit:wght@200;400;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<!-- PAGE HEADER  -->
     <header class="sticky">
-        <div class="container header__container">
-            <div class="row">
+        <div class="header__container">
+            <div class="row header__row">
                 <div class="col col-2 ">
                     <ul>
                         <li><a href="">Woman</a></li>
@@ -20,156 +22,204 @@
                         <li><a href="">kid</a></li>
                     </ul>
                 </div>
-                <div class="col logo-col">
+                <div class="logo-col">
                     <img class="logo" src="./img/boolean-logo.png" alt="">
                 </div>
                 <div class="col col-2">
-                    <span>Log</span>
-                    <span>Liked</span>
-                    <span>Cart</span>
+                    <ul>
+                        <li>
+                            <a href="#">Log</a>
+                        </li>
+                        <li>
+                            <a href="#">Liked</a>
+                        </li>
+                        <li>
+                            <a href="#">Cart</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </header>
 
+<!-- MAIN SHOP APP -->
+
     <main>
         <div class="container">
             <div class="row">
+
                 <div class="col-4">
-                    <div class="card card-1">
-                        <figure>
-                            <img src="./img/1.webp" alt="">
-                            <img class="img-b" src="./img/1b.webp" alt="">
-                        </figure> 
-                        <p class="griff">Levi's</p>
-                        <p class="item">RELAXED FIT TEE UNISEX</p>
-                        <P class="price">14,99 <span>€ 29,99 €</span></P>
+                    <div class="card">
+                        <div class="card-top">
                         <div class="heart">
                             <p class="heart-size">&#9829;</p>
                         </div>
-                        <div class="price-off just-price-off">
-                            <span>-50%</span>
+                        <div class="badges-wrapper">
+                            <div class="price-off just-price-off">
+                                <span>-50%</span>
+                            </div>
+                            <div class="sustainable sustainable-top">
+                                <span>Sostenibity</span>
+                            </div>
                         </div>
-                        <div class="sustainable sustainable-top">
-                            <span>Sostenibity</span>
+                            <figure>
+                                <img src="./img/1.webp" alt="">
+                                <img class="img-b" src="./img/1b.webp" alt="">
+                            </figure> 
                         </div>
+                        <div class="card-description">
+                            <p class="griff">Levi's</p>
+                            <p class="item">RELAXED FIT TEE UNISEX</p>
+                            <p class="price">14,99 <span>€ 29,99 €</span></p>
+                        </div> 
                     </div>  
                 </div>
+
                 <div class="col-4">
                     <div class="card">
-                        <figure>
-                            <img src="./img/2.webp" alt="">
-                            <img class="img-b" src="./img/2b.webp" alt="">
-                        </figure>
-                        <p class="griff">Guess</p>
-                        <p class="item">ROSES TEE</p>
-                        <P class="price">20,99 <span>€ 29,99 €</span></P>
+                        <div class="card-top">
                         <div class="heart">
-                            <p class="heart-size">&#9829;</p>
+                            <p class="heart-size">&#9829;</p>        
                         </div>
-                        <div class="price-off just-price-off">
-                            <span>-30%</span>
+                        <div class="badges-wrapper">
+                            <div class="price-off just-price-off">
+                                <span>-30%</span>
+                            </div>
                         </div>
-                    </div>                  
+                            <figure>
+                                <img src="./img/2.webp" alt="">
+                                <img class="img-b" src="./img/2b.webp" alt="">
+                            </figure> 
+                        </div>
+                        <div class="card-description">
+                            <p class="griff">Guess</p>
+                            <p class="item">ROSES TEE</p>
+                            <P class="price">20,99 <span>€ 29,99 €</span></p>
+                        </div> 
+                    </div>  
                 </div>
+
                 <div class="col-4">
                     <div class="card">
-                        <figure>
-                            <img src="./img/3.webp" alt="">
-                            <img class="img-b" src="./img/3b.webp" alt="">
-                        </figure>
-                        <p class="griff">Come Zucchero Filato</p>
-                        <p class="item">VOGLIA DI COLORI PASTELLO</p>
-                        <P class="price">129,99 € <span>184,99 €</span></P>
+                        <div class="card-top">
                         <div class="heart">
                             <p class="heart-size">&#9829;</p>
                         </div>
-                        <div class="price-off just-price-off">
-                            <span>-30%</span>
+                        <div class="badges-wrapper">
+                            <div class="price-off just-price-off">
+                                <span>-30%</span>
+                            </div>
                         </div>
-                    </div>
+                            <figure>
+                                <img src="./img/3.webp" alt="">
+                                <img class="img-b" src="./img/3b.webp" alt="">
+                            </figure> 
+                        </div>
+                        <div class="card-description">
+                            <p class="griff">Come Zucchero Filato</p>
+                            <p class="item">VOGLIA DI COLORI PASTELLO</p>
+                            <P class="price">129,99 € <span>184,99 €</span></p>
+                        </div> 
+                    </div>  
                 </div>
+
                 <div class="col-4">
                     <div class="card">
-                        <figure>
-                            <img src="./img/4.webp" alt="">
-                            <img class="img-b" src="./img/4b.webp" alt="">
-                        </figure>
-                        <p class="griff">Levi's</p>
-                        <p class="item">TEE UNISEX</p>
-                        <P class="price">14,99 € <span>29,99 €</span></P>
+                        <div class="card-top">
                         <div class="heart">
-                            <p class="heart-size">&#9829;</p>
+                            <p class="heart-size">&#9829;</p>    
                         </div>
-                        <div class="price-off">
-                            <span>-50%</span>
+                        <div class="badges-wrapper">
+                            <div class="price-off just-price-off">
+                                <span>-50%</span>
+                            </div>
+                            <div class="sustainable sustainable-top">
+                                <span>Sostenibity</span>
+                            </div>
                         </div>
-                        <div class="sustainable">
-                            <span>Sostenibity</span>
+                            <figure>
+                                <img src="./img/4.webp" alt="">
+                                <img class="img-b" src="./img/4b.webp" alt="">
+                            </figure> 
                         </div>
-                    </div>   
+                        <div class="card-description">
+                            <p class="griff">Levi's</p>
+                            <p class="item">TEE UNISEX</p>
+                            <P class="price">14,99 € <span>29,99 €</span></p>
+                        </div> 
+                    </div>  
                 </div>
+
                 <div class="col-4">
                     <div class="card">
-                        <figure>
-                            <img src="./img/5.webp" alt="">
-                            <img class="img-b" src="./img/5b.webp" alt="">
-                        </figure>
-                        <p class="griff">Maya Deluxe</p>
-                        <p class="item">STRIP BODICE</p>
-                        <P class="price">99,99 €</P>
+                        <div class="card-top">
                         <div class="heart">
-                            <p class="heart-size">&#9829;</p>
+                            <p class="heart-size">&#9829;</p> 
                         </div>
-                    </div>                   
+                        <!-- <div class="badges-wrapper">
+                            NO BADGES
+                        </div> -->
+                            <figure>
+                                <img src="./img/5.webp" alt="">
+                                <img class="img-b" src="./img/5b.webp" alt="">
+                            </figure> 
+                        </div>
+                        <div class="card-description">
+                            <p class="griff">Maya Deluxe</p>
+                            <p class="item">STRIP BODICE</p>
+                            <P class="price">99,99 €</p>
+                        </div> 
+                    </div>  
                 </div>
+
                 <div class="col-4">
                     <div class="card">
-                        <figure>
-                            <img src="./img/6.webp" alt="">
-                            <img class="img-b" src="./img/6b.webp" alt="">
-                        </figure>
-                        <p class="griff">Esprit</p>
-                        <p class="item">MAGLIONE BLACK</p>
-                        <P class="price">29,99 €</P>
+                        <div class="card-top">
                         <div class="heart">
                             <p class="heart-size">&#9829;</p>
                         </div>
-                        <div class="sustainable just-sustainable">
-                            <span>Sostenibity</span>
+                        <div class="badges-wrapper">
+                            <div class="sustainable sustainable-top">
+                                <span>Sostenibity</span>
+                            </div>
                         </div>
-                    </div>                    
+                            <figure>
+                                <img src="./img/6.webp" alt="">
+                                <img class="img-b" src="./img/6b.webp" alt="">
+                            </figure> 
+                        </div>
+                        <div class="card-description">
+                            <p class="griff">Esprit</p>
+                            <p class="item">MAGLIONE BLACK</p>
+                            <P class="price">29,99 €</p>
+                        </div> 
+                    </div>  
                 </div>
             </div>
         </div>
     </main>
 
+<!-- FOOTER  -->
 
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row footer__row">
                 <div class="col-6">
-                    <p class="footer-link">Boolando s.r.l.</p>
-                    <p>
+                    <h4>Boolando s.r.l.</h4>
                         <ul>
-                            <li class="footer-link">Informazioni Legali</li>
-                            <li class="footer-link">Informativa sulla privacy</li>
-                            <li class="footer-link">Diritto di recesso</li>
+                            <li class="footer-link"><a href="#">Informazioni Legali</a></li>
+                            <li class="footer-link"><a href="#">Informativa sulla privacy</a></li>
+                            <li class="footer-link"><a href="#">Diritto di recesso</a></li>
                         </ul>
-                    </p>
                 </div>
-                <div class="col-6 text-allign-right">
-                    <p class="footer-link">Trovaci anche su:</p>
-                    <p>
+                <div class="col-6">
+                    <h4 class="footer-link">Trovaci anche su:</h4>
                         <ul>
-                            <li class="footer-link">Socials<li>                 
+                            <li class="footer-link"><a href="#">Socials</a><li>                 
                       </ul>
-                    </p>
                 </div>
             </div>
         </div>
     </footer>
 </body>
 </html>
-
-<!-- IN FASE DI CORREZIONE ABBIAM VISTO COME DIVIDERE LA CARD IN DUE DIV E' MOLTO COMODO QUANDO LE IMG-PRODUCTS HANNO DIMENSIONI MOLTO DIFFERENTI TRA LORO -->
